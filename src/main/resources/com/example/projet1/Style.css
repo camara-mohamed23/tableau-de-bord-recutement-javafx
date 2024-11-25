@@ -1,0 +1,25 @@
+.nav{
+-fx-border-radius: 50px ;
+-fx-background-radius: 50px ;
+}
+.tab{
+-fx-background-radius: 30px 0px 30px 0px;
+}
+.im{
+-fx-background-radius: 30px;
+}
+.button{
+-fx-background-radius: 10px 0px 10px 0px;
+}
+.recherche{
+-fx-background-radius: 10 ;
+ -fx-border-width: 2;
+ -fx-text-fill : #333333;
+ -fx-font-size : 14 px;
+ -fx-font-family :  Arial, sans-serif;
+}
+
+.button:hover {
+    -fx-background-color:  #25728e;
+    -fx-text-fill : #ffffff;
+}
