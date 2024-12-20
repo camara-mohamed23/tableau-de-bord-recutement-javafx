@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module com.example.projet5 {
     requires javafx.controls;
     requires javafx.fxml;
@@ -14,4 +15,12 @@ module com.example.projet5 {
 
     opens com.example.projet5 to javafx.fxml;
     exports com.example.projet5;
+=======
+module com.example.projet {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires javafx.graphics;
+
+    exports com.example.projet1;
+>>>>>>> 549285978d170ccaf74c74012197454d859fe9a1
 }

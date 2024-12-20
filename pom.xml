@@ -5,15 +5,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
+<<<<<<< HEAD
     <artifactId>Projet5</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Projet5</name>
+=======
+    <artifactId>Projet1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Projet 1</name>
+>>>>>>> 549285978d170ccaf74c74012197454d859fe9a1
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.10.2</junit.version>
     </properties>
 
+<<<<<<< HEAD
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -112,6 +119,39 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+=======
+
+
+    <dependencies>
+        <!-- Dépendance JavaFX 23 pour les contrôles (par exemple) -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>17.0.6</version> <!-- Version 23 -->
+        </dependency>
+
+        <!-- Ajouter d'autres dépendances JavaFX selon les besoins -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>17.0.6</version> <!-- Version 23 -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-web</artifactId>
+            <version>17.0.6</version> <!-- Assurez-vous d'utiliser la version de JavaFX que vous utilisez -->
+        </dependency>
+
+
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>gluon-repo</id>
+            <url>https://repo.gluonhq.com/nexus/content/repositories/releases/</url>
+        </repository>
+    </repositories>
+>>>>>>> 549285978d170ccaf74c74012197454d859fe9a1
 
     <build>
         <plugins>
@@ -133,7 +173,11 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
+<<<<<<< HEAD
                             <mainClass>com.example.projet5/com.example.projet5.HelloApplication</mainClass>
+=======
+                            <mainClass>com.example.projet1/com.example.projet1.HelloApplication</mainClass>
+>>>>>>> 549285978d170ccaf74c74012197454d859fe9a1
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
